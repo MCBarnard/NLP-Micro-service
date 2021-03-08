@@ -1,0 +1,87 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hello",  "hi",  "hey",  "good day",  "goodday",  "greetings",  "whats up?",  "whats up",  "how is it going?",  "how is it going"],
+      "responses": ["Hello! How can we help?", "Hey! What can I do for you?", "Hi! How can i help?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["cheers",  "goodbye",  "good bye",  "bye",  "adios"],
+      "responses": ["Good Bye!"]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name?",
+        "what is your name",
+        "who are you",
+        "to who am I speaking",
+        "can you tell me your name"
+      ],
+      "responses": ["You can call me Jarvis.", "My name is, Jarvis.", "My name is Jarvis, Tony's assistant!"]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "when are you guys open",
+        "when are you open",
+        "what are your hours",
+        "hours of operation"
+      ],
+      "responses": [
+        "We are open now...",
+        "Monday to Friday, give us a ring",
+        "08:00 - 17:00 Whole week long!"
+      ]
+    },
+    {
+      "tag": "signature",
+      "patterns": [
+        "signature mismatch",
+        "I am struggling with my signature",
+        "how do I build a signature",
+        "error with my signature",
+        "I am getting a signature mismatch"
+      ],
+      "responses": [
+        "I hate building signatures too...",
+        "My brain just jumps everytime I hear signature mismatch",
+        "I could help with your signature you know..."
+      ]
+    },
+    {
+      "tag": "merchant_key",
+      "patterns": [
+        "merchant_key does not exist",
+        "merchant key does not exist",
+        "merchant_key mismatch",
+        "merchant key mismatch",
+        "merchant_details mismatch",
+        "merchant details mismatch",
+        "I am getting a merchant id",
+        "I am getting a merchant_id",
+        "I am getting a merchant key",
+        "I am getting a merchant_key"
+      ],
+      "responses": [
+        "The merchant_key and merchant_id is unique to your profile, ensure that you dont have sandbox credentials saved in your store back end.",
+        "Make sure that you arent in test mode or that your live merchant credentials are being used",
+        "You're still struggling with this...?"
+      ]
+    },
+    {
+      "tag": "next",
+      "patterns": [
+        "what do we do next",
+        "what next",
+        "is there anything to follow",
+        "what is coming",
+        "what is coming next"
+      ],
+      "responses": [
+        "Now that we have a machine learning algorithm, we need to apply this on the marketing site"
+      ]
+    }
+  ]
+}
