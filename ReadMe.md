@@ -1,5 +1,8 @@
 # Natural Language Processing MS
 
+## Licence
+MIT
+
 ## About
 
 The chatbot_nlp microservice uses intents.json to build a nearal network and give appropriate feedback.
@@ -20,7 +23,7 @@ To use this service for your own chatbot, simply edit `intents.json` adding a ta
     "response":"HTTP OK"
 }`
 
-`POST`: http://127.0.0.1:8000/support-query
+`POST`: http://127.0.0.1:8000/ask
 
 `{
     "code": 200,
